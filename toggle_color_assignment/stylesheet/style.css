@@ -1,0 +1,90 @@
+*{
+    margin-left: 0px;
+}
+body {
+    background-color: grey;
+}
+.btn-toggle-menu{
+    margin-left: 0px;
+    margin-bottom: 30px;
+    width: 50px;
+    height:40px; 
+    cursor: pointer; 
+    display: block;
+}
+.btn-toggle-menu img{
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    width:50px;
+    height:40px; 
+    cursor: pointer;           
+}
+.btn-toggle-menu img:hover{
+    opacity: 0.5;  
+
+}
+ .menu-sidebar{
+    visibility: hidden;
+    list-style: none;
+    margin-left: 0px;
+    color: black;
+    display:block;  
+ }
+ .menu-sidebar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    opacity: 0.5;
+    transition: 0.8s;
+  
+ }
+  .menu-sidebar li {
+    margin-top: 5px;
+    width: 200px;
+    height: 20px;
+    text-align:left; 
+    } 
+ 
+ .menu-sidebar li a{
+    list-style-type: none;
+    text-decoration: none;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+}
+
+.men1 {
+    margin-top: 25px;
+    background-color: gray;
+    padding: 15px;
+    width: 100px;
+    height: 50px;
+}
+.men2 {
+    margin-top: 3px;
+    padding: 15px;
+    background-color: red ;
+    width: 100px;
+    height: 50px;
+}
+.men3{
+    margin-top: 13px;
+    padding: 15px;
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+}
+.men4{
+    margin-top: 13px;
+    padding: 15px;
+    background-color: purple;
+    width: 100px;
+    height: 50px;
+}
+.men5{
+    margin-top: 3px;
+    padding: 15px;
+    background-color: green;
+}
+
